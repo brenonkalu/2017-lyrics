@@ -1,11 +1,22 @@
-/*
+
 * {
   border-style: solid;
 }
-*/
 
-h1, h2 {
+body {
+  margin: auto;
+  padding: 0;
+  color: #DDDDDD;
+}
+
+h1 {
   font-family: abril-fatface;
+  font-size: 64px;
+}
+
+h2 {
+  font-family: abril-fatface;
+  font-size: 48px;
 }
 
 p {
@@ -14,5 +25,67 @@ p {
 
 .header {
   height: 240px;
+  width: 100%;
   background: #1B1B1B;
+  margin: auto;
+  text-align: center;
+}
+
+.header > h1{
+  padding: 58px 0;
+  margin: auto;
+}
+
+.header > p{
+  padding: 0px 0;
+  margin: auto;
+}
+
+button {
+  border: solid #DDDDDD;
+  padding: 9px 35px;
+  text-align: center;
+  text-decoration: uppercase;
+  display: inline-block;
+  font-size: 16px;
+  font-family: lato;
+  color: #DDDDDD;
+  background-color: transparent;
+}
+
+button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.section-1 {
+  height: 240px;
+  width: 100%;
+  background: #FFFFFF;
+  margin: auto;
+  text-align: center;
+  background-image: url("img/IMG_6572.png");
+}
+
+.section-2 {
+  height: 240px;
+  width: 100%;
+  background: #876543;
+  margin: auto;
+  text-align: center;
+}
+
+.section-3 {
+  height: 240px;
+  width: 100%;
+  background: #FFFFFF;
+  margin: auto;
+  text-align: center;
+}
+
+.footer {
+  height: 96px;
+  width: 100%;
+  background: #1B1B1B;
+  margin: auto;
+  text-align: center;
 }
