@@ -2,6 +2,7 @@
 * {
   border-style: solid;
 }
+*/
 
 html,body {
   height: 100%;
@@ -10,7 +11,6 @@ html,body {
   display:table;
   overflow: hidden;
 }
-*/
 
 /* font css */
 p {
