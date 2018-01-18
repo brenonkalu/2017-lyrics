@@ -4,6 +4,10 @@
 }
 */
 
+*, ::after, ::before {
+    box-sizing: content-box;
+}
+
 /*--GLOBAL--*/
 body {
   margin: 0;
@@ -104,5 +108,12 @@ a:active, a:hover a:visited {
   max-width: auto;
   max-height: 16px;
   padding: 0px 2px 0px 2px;
+}
 
+.modal-header {
+  background-color: #DDDDDD;
+}
+
+.modal-body {
+  background-color: #1B1B1B;
 }
