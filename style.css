@@ -85,9 +85,11 @@ a:active, a:hover a:visited {
   text-shadow: 0 8px 16px rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);
 }
 
+/*
 .section-1:hover, .section-1:active {
   background-image: url("img/IMG_6572_actual.png");
 }
+*/
 
 .section-2 {
   background-image: url("img/IMG_6352.png");
