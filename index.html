@@ -29,30 +29,89 @@
     </div>
 
     <div class="content">
+
       <div class="section-1">
         <h2>DUMBO</h2>
         <p><i>January 6, 2018</i></p>
         <button class="btn-1" type="button" data-toggle="modal" data-target=".bd-dumbo-modal-lg">VIEW</button>
       </div>
 
+      <div class="modal fade bd-dumbo-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img class="img-fluid" id="DUMBO" src="img/IMG_6572_actual.png"/>
+                <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <span class="label-title">ISO</span>
+                    <span class="label-text">3200</span>
+                  </div>
+                  <div class="col-sm">
+                    <span class="label-title">F-STOP</span>
+                    <span class="label-text">2.8</span>
+                  </div>
+                  <div class="col-sm">
+                    <span class="label-title">SS</span>
+                    <span class="label-text">1/20</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="section-2">
         <h2>BED-STUY</h2>
         <p><i>January 6, 2018</i></p>
-        <button class="btn-2" type="button">VIEW</button>
+        <button class="btn-2" type="button" data-toggle="modal" data-target=".bd-bedstuy-modal-lg">VIEW</button>
+      </div>
+
+      <div class="modal fade bd-bedstuy-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img class="img-fluid" id="bedstuy" src="img/IMG_6352_actual.JPG"/>
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <span class="label-title">ISO</span>
+                    <span class="label-text">800</span>
+                  </div>
+                  <div class="col-sm">
+                    <span class="label-title">F-STOP</span>
+                    <span class="label-text">3.2</span>
+                  </div>
+                  <div class="col-sm">
+                    <span class="label-title">SS</span>
+                    <span class="label-text">1/400</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="section-3">
         <h2>Harlem</h2>
         <p><i>January 6, 2018</i></p>
-        <button class="btn-3" type="button">VIEW</button>
+        <button class="btn-3" type="button" data-toggle="modal" data-target=".bd-harlem-modal-lg">VIEW</button>
       </div>
     </div>
 
-    <div class="footer">
-      <p>Made with <img id="heart" src="img/heart.png"/> in Harlem.</p>
-    </div>
-
-    <div class="modal fade bd-dumbo-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal fade bd-harlem-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
@@ -61,11 +120,32 @@
             </button>
           </div>
           <div class="modal-body">
-            <img class="img-fluid" id="DUMBO" src="img/IMG_6572_actual.png"/>
+            <img class="img-fluid" id="harlem" src="img/IMG_6430_actual.JPG"/>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm">
+                  <span class="label-title">ISO</span>
+                  <span class="label-text">6400</span>
+                </div>
+                <div class="col-sm">
+                  <span class="label-title">F-STOP</span>
+                  <span class="label-text">5.6</span>
+                </div>
+                <div class="col-sm">
+                  <span class="label-title">SS</span>
+                  <span class="label-text">1/8</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="footer">
+      <p>Made with <img id="heart" src="img/heart.png"/> in Harlem.</p>
+    </div>
+
   </body>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

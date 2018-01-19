@@ -1,3 +1,5 @@
+/*----------GLOBAL----------*/
+
 /*
 * {
   border-style: solid;
@@ -8,7 +10,7 @@
     box-sizing: content-box;
 }
 
-/*--GLOBAL--*/
+
 body {
   margin: 0;
   color: #DDDDDD;
@@ -42,7 +44,7 @@ a:active, a:hover a:visited {
   text-decoration: underline;
 }
 
-/*--BODY--*/
+/*----------BODY----------*/
 .header {
   height: 200px;
   width: 100%;
@@ -74,6 +76,7 @@ a:active, a:hover a:visited {
   background-color: rgba(221,221,221,0.15);
   color: #DDDDDD;
   transition: border-color 0.4s ease-in, color 0.4s ease-in;
+  cursor: pointer;
 }
 
 .section-1, .section-2, .section-3 {
@@ -99,6 +102,36 @@ a:active, a:hover a:visited {
   background-image: url("img/IMG_6430.png");
 }
 
+.modal-header {
+  background-color: #DDDDDD;
+}
+
+.modal-body {
+  background-color: #1B1B1B;
+}
+
+.container {
+  border: 1px solid #DDDDDD;
+  margin-top: 10px;
+  box-sizing: border-box;
+  padding: 15px;
+  background-color: rgba(221,221,221,0.2);
+}
+
+.col-sm {
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+}
+
+.label-title {
+  font-size: 12px;
+}
+
+.label-text {
+  display: block;
+  font-weight: bold;
+}
+
 .footer {
   height: 64px;
   width: 100%;
@@ -110,12 +143,4 @@ a:active, a:hover a:visited {
   max-width: auto;
   max-height: 16px;
   padding: 0px 2px 0px 2px;
-}
-
-.modal-header {
-  background-color: #DDDDDD;
-}
-
-.modal-body {
-  background-color: #1B1B1B;
 }
