@@ -1,2 +1,2 @@
-# 2017-lyrics
-website for best 2017 lyrics
+# 2018-photos
+website for some of my favorite photos
