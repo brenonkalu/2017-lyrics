@@ -13,24 +13,24 @@
 
 body {
   margin: 0;
-  color: #DDDDDD;
+  color: #EEEEEE;
   text-align: center;
 }
 
 h1, h2, p {
   font-family: abril-fatface;
   margin: 0;
-  font-size: 36px;
+  font-size: 2.25rem;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 3rem;
   padding-top: 88px;
 }
 
 p {
   font-family: lato;
-  font-size: 16px;
+  font-size: 1rem;
   padding: 0px 0px 40px 0px;
 }
 
@@ -58,14 +58,14 @@ a:active, a:hover a:visited {
 }
 
 .btn-1, .btn-2, .btn-3 {
-  border: solid #DDDDDD;
+  border: solid #EEEEEE;
   padding: 9px 35px;
   text-align: center;
   text-decoration: uppercase;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: lato;
-  color: #DDDDDD;
+  color: #EEEEEE;
   background-color: transparent;
   transition: border-color 0.3s ease-out, color 0.3s ease-out;
   text-shadow: 0 8px 16px rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);
@@ -111,7 +111,7 @@ a:active, a:hover a:visited {
 }
 
 .container {
-  border: 1px solid #DDDDDD;
+  border: 1px solid #EEEEEE;
   margin-top: 10px;
   box-sizing: border-box;
   padding: 15px;
@@ -124,7 +124,7 @@ a:active, a:hover a:visited {
 }
 
 .label-title {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .label-text {
